@@ -1,0 +1,24 @@
+<html>
+   <head>
+      <title>Bitbucket Giant</title>
+      <link rel="icon" href="bit.jpg">
+      <link rel="stylesheet" href="allStyles.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+    <body>
+      <center>
+         <button type="button" class= "button button2" style="text-align: center; font-size: 10em" onclick="doAuthorize()">
+            Authorize Yourself</button>
+      </center>
+      
+      <br><br><button class="button button4" style="display: inline" onclick="listDrives()"> Drives List :  </button>
+      <select id="dlists" style="display: inline; visibility: hidden"></select>      
+
+      <!-- This portion handles the list of repository html content -->
+      <div id="newBlock"></div>
+
+      <script src="./scripts/authorizeBitbucket.js" type="text/javascript"></script>
+      <script src="./scripts/list_repositories.js" type="text/javascript"></script>
+      <script src="./scripts/downloadRepositories.js" type="text/javascript"></script>
+   </body>
+</html>

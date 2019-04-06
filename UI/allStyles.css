@@ -1,0 +1,83 @@
+.button {
+  background-color: rgb(230, 236, 230);
+  /* Green */
+  border: none;
+  color: rgb(32, 11, 11);
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: rgb(218, 158, 29);
+  font-size: 20px
+}
+
+.button2 {
+  background-color: #008CBA;
+}
+
+.button3 {
+  background-color: rgb(185, 248, 12);
+}
+
+.button4 {
+  background-color: rgb(172, 71, 202);
+}
+
+.loader {
+  display: inline-block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin-left: 1em;
+}
+
+.lds-hourglass {
+  display: inline-block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin-left: 1em;
+}
+
+.button3-class {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  margin-left: 1em;
+}
+
+.lds-hourglass:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 1;
+  height: 1;
+  margin: 6px;
+  box-sizing: border-box;
+  border: 26px solid rgb(19, 17, 17);
+  border-color: rgb(209, 206, 27) transparent rgb(8, 170, 149) transparent;
+  animation: lds-hourglass 1s infinite;
+}
+
+@keyframes lds-hourglass {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  100% {
+    transform: rotate(1800deg);
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "oauth-bitbucket-repo-download",
+  "version": "1.0.0",
+  "description": "used to download the repositories from the user's account",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidvip/OAuth-Bitbucket-Repo-Download.git"
+  },
+  "keywords": [
+    "OAuth",
+    "Bitbucket",
+    "Repositories"
+  ],
+  "dependencies": {
+    "drivelist": "^8.0.6",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "nodemon": "^1.18.10",
+    "request": "^2.88.0",
+    "sync-request": "^6.1.0"
+  },
+  "author": "Siddhartha Vibhu Pharswan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sidvip/OAuth-Bitbucket-Repo-Download/issues"
+  },
+  "homepage": "https://github.com/sidvip/OAuth-Bitbucket-Repo-Download#readme"
+}
