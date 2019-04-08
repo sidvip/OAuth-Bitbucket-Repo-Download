@@ -1,6 +1,6 @@
 {
   "name": "oauth-bitbucket-repo-download",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "used to download the repositories from the user's account",
   "main": "main.js",
   "scripts": {
