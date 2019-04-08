@@ -1,4 +1,7 @@
 var request = require("request");
+const clientID = '';
+const clientSecret = '';
+
 
 const getAccessToken = function getAccessToken(authCode) {
   return new Promise((resolve, reject) => {
@@ -9,8 +12,8 @@ const getAccessToken = function getAccessToken(authCode) {
      'Content-Type': 'application/x-www-form-urlencoded' },
   form: 
    { code: authCode,
-     client_id: 'hjLHJA74zxvzCWsJBU',
-     client_secret: 'VmtnVsBFLgxPBHaSWJKgkbvanTmesDGJ',
+     client_id: clientID,
+     client_secret: clientSecret,
      grant_type: 'authorization_code',
      undefined: undefined } };
 
